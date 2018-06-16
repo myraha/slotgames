@@ -1,0 +1,168 @@
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+  font-family: 'Roboto';
+  margin: 0 auto;
+
+}
+
+header{
+  border-bottom: .1px solid #000;
+  height: 60px;
+  padding: 25px;
+  margin-bottom: 30px;
+
+}
+
+header h1 {
+  font-size: 11px;
+}
+
+html{
+  font-size: 10px;
+}
+
+/* section{
+  border: .5px solid #000;
+  border-radius: 5px;
+} */
+
+.betSection{
+  width: 17%;
+  height: 400px;
+  float: left;
+  margin-left: 2%;
+}
+
+.betSection h1, p{
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+#submitBet{
+  width: 45%;
+}
+
+#result{
+  font-size: 3rem;
+  margin-top: 15px;
+}
+
+
+.slotBox{
+  width: 53%;
+  border-radius: 5px;
+  height: 400px;
+  background-color: #eee;
+}
+
+.slot{
+  width: 30%;
+  height: 200px;
+  float: left;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-left: 2.5%;
+  margin-top: 17px;
+}
+
+img{
+  height: 144px;
+  margin: 16px 22px;
+}
+
+#reelOne, #reelTwo, #reelThree{
+  width: 100%;
+  height: 25px;
+  background-color: #000;
+  color: #fff;
+  border-radius:  5px;
+}
+
+.spinToggles{
+  display: block;
+  width: 100%;
+  float: left;
+  margin: 10px 2.5%;
+}
+
+#spinWheel{
+  width: 95%;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #1f76e3;
+  color: #fff;
+}
+
+span{
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+#currentBet{
+  font-size: 2rem;
+}
+
+
+#gameOver {
+  color: #cf0041;
+  font-size: 2rem;
+}
+
+@media (min-width: 375px) and (max-width: 768px){
+  .betSection {
+    width: 63%;
+    height: 184px;
+    margin-left: 17%;
+  }
+
+  .slotBox{
+    width: 78%;
+    border-radius: 5px;
+    height: 232px;
+    background-color: #eee;
+    margin-top: 212px;
+  }
+
+  .slot {
+    width: 30%;
+    height: 88px;
+    float: left;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-left: 2.5%;
+    margin-top: 17px;
+  }
+
+  img{
+    height: 32px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+  .betSection h1, p {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+
+  .slotBox{
+    width: 78%;
+    border-radius: 5px;
+    height: 350px;
+    background-color: #eee;
+    margin-top: 233px;
+}
+
+.spinToggles{
+  margin: 35px 2.5%;
+}
+
+.slot{
+  height: 181px;
+}
+  }
+
+}

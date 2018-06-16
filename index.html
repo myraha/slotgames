@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head>
+
+  <body>
+    <header>
+      <h1>Slot Machine App:</h1>
+    </header>
+
+      <section class="betSection">
+        <h1>Welcome to the game of slots!</h1>
+        <p> Enter a number amount to play. Between each spin place a bet for a chance to win!</p>
+        <input id="enterAmount" type="text" name="" value="">
+        <button id="submitBet" type="button" name="button">Submit your bet</button>
+        <h2 id="result">0</h1>
+        <h2 id="youBet"></h1>
+      </section>
+
+      <section class="slotBox">
+        <section class="slot">
+          <img id="slot1" src="assets/gamer.png" alt="">
+          <button id="reelOne" type="button" name="button">Stop</button>
+        </section>
+        <section class="slot">
+          <img id="slot2" src="assets/gamer.png" alt="">
+          <button id="reelTwo" type="button" name="button">Stop</button>
+        </section>
+        <section class="slot">
+          <img id="slot3" src="assets/gamer.png" alt="">
+          <button id="reelThree" type="button" name="button">Stop</button>
+        </section>
+        <section class="spinToggles">
+          <button id="spinWheel" type="button" name="button">Spin the wheel!</button>
+          <span>current bet:</span>
+          <h2 id="currentBet">0</h1>
+          <span>toggle your bet amount</span>
+          <button id="increase" type="button" name="button">+</button>
+          <button id="decrease" type="button" name="button">-</button>
+          <h2 id="gameOver"></h1>
+          <h2 id="youWin"></h1>
+          <h2 id="notMatch"></h1>
+        </section>
+      </section>
+
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script type="text/javascript" src="js/main.js"> </script>
+  </body>
+</html>
